@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Book Trade</string>
+    <string name="action_settings">Settings</string>
+    <string name="Logintext">Login</string>
+    <string name="btningresar">Ingresar</string>
+    <string name="btnregistrar">Registrarse</string>
+    <string name="title_activity_registro">Activity_registro</string>
+    <string name="title_activity_postlogin">Activity_postlogin</string>
+</resources>
