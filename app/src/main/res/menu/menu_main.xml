@@ -4,8 +4,41 @@
     
     tools:context="com.example.sony.proyecto.MainActivity" >
 
-    <item android:id="@+id/action_settings"
+    <!--<item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/btnperfil"
+        android:enabled="false"
+        android:icon="@mipmap/ic_launcher_round"
+        android:orderInCategory="99"
+        android:title="@string/btnperfil"
+        app:showAsAction="always"
+    />
+
+    <item
+        android:id="@+id/btnnotificaciones"
+        android:enabled="false"
+        android:icon="@mipmap/ic_launcher"
+        android:orderInCategory="100"
+        android:title="@string/notificaciones"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnsalir"
+        android:enabled="false"
+        android:icon="@drawable/btnsalir"
+        android:orderInCategory="101"
+        android:title="@string/btnsalir"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/spinner"
+        android:title="Notificaciones"
+        app:actionViewClass="android.widget.Spinner"
+        android:background="#ff00"
+        app:showAsAction="always" />
 </menu>

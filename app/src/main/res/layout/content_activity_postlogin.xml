@@ -4,18 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.sony.proyecto.Activity_postlogin"
     tools:showIn="@layout/activity_postlogin">
 
-    <TextView
+    <!--<TextView
         android:id="@+id/tvregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/colorVerdeOscuro"
         android:textSize="@android:dimen/notification_large_icon_width"
-        />
+        />-->
+
+    <ImageView
+        android:id="@+id/imgbackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="33dp"
+        android:id="@+id/tvtitulopostlogin"
+        android:text="@string/librosrecomendados"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/activity_horizontal_margin"
+        app:layout_constraintTop_toTopOf="@+id/imgbackground"
+        android:layout_marginTop="34dp"
+        android:layout_marginLeft="42dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:layout_width="71dp"
+        android:layout_height="89dp"
+        android:background="@drawable/ladronadelibros"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulopostlogin"
+        android:layout_marginLeft="42dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/btnladrona" />
+
+    <ImageButton
+        android:layout_width="71dp"
+        android:layout_height="89dp"
+        android:background="@drawable/rebelionenlagranja"
+        app:layout_constraintLeft_toRightOf="@+id/btnladrona"
+        android:layout_marginLeft="34dp"
+        app:layout_constraintRight_toLeftOf="@+id/ceguera"
+        android:id="@+id/btngranja"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.227"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulopostlogin" />
+
+    <ImageButton
+        android:layout_width="71dp"
+        android:layout_height="89dp"
+        android:background="@drawable/ceguera"
+        android:layout_marginRight="43dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/ceguera"
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvtitulopostlogin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/tvnotifposlogin"
+        android:text="@string/notificaciones"
+        android:textSize="@dimen/activity_horizontal_margin"
+
+        android:layout_marginTop="42dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnladrona"
+        android:layout_marginRight="238dp"
+        app:layout_constraintRight_toRightOf="@+id/imgbackground"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imgbackground" />
 
 
 </android.support.constraint.ConstraintLayout>

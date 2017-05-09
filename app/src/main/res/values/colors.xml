@@ -3,6 +3,7 @@
     <color name="colorPrimary">#CDDC39</color>
     <color name="colorPrimaryDark">#827717</color>
     <color name="colorAccent">#CDDC39</color>
+    <color name="colorverdelimon">#CDDC39</color>
     <color name="colorVerdeOscuro">#33691E</color>
-    <color name="ColorActionBarTitle">#FF99CC00</color>
+    <color name="ColorActionBarTitle">#33691E</color>
 </resources>
