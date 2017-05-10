@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/conlay"
+    tools:context="com.example.sony.proyecto.Descripcion_libro">
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="128dp"
+        android:onClick="sendMessage"
+        android:scaleType="fitCenter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="42dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="128dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/imageButton3"
+        android:layout_marginRight="33dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageButton1"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.77"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="33dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginRight="42dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="42dp" />
+
+    <Button
+        android:id="@+id/noti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="notificacion"
+        android:onClick="notificar"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="37dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="37dp" />
+
+    <Button
+        android:id="@+id/newLibro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo Libro"
+        android:layout_marginLeft="42dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/noti"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintTop_toTopOf="@+id/noti"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="8dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

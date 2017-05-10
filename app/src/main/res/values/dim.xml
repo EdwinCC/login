@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name= "bookTextWidth">190dp</dimen>
+    <dimen name= "bookTextHeight">40dp</dimen>
+    <dimen name= "main_BookHeight">120dp</dimen>
+    <dimen name= "main_BookWidth">70dp</dimen>
+    <dimen name= "listitem_buttonheight">40dp</dimen>
+    <dimen name= "listitem_buttonwidth">50dp</dimen>
+</resources>

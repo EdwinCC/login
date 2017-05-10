@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="user1_notication">
+        <item>asuitableboy</item>
+        <item>infernaldevices</item>
+    </string-array>
+
+    <string-array name="user2_notication">
+        <item>lifeofpi</item>
+        <item>asuitableboy</item>
+    </string-array>
+</resources>

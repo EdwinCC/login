@@ -6,4 +6,6 @@
     <color name="colorverdelimon">#CDDC39</color>
     <color name="colorVerdeOscuro">#33691E</color>
     <color name="ColorActionBarTitle">#33691E</color>
+
+    <color name="letras">#d6d7d7</color>
 </resources>

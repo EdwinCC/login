@@ -26,7 +26,7 @@
         <item>Notificacion2</item>
         <item>Notificacion3</item>
     </string-array>
-    
+
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -40,4 +40,97 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
+
+    <string name="viewprofile">Ver Perfil</string>
+    <string name="tradebook">Cambiar Libro</string>
+
+    <string name="t_lifeofpi">Life of Pi</string>
+    <string name="a_lifeofpi">Yann Martel</string>
+    <string name="e_lifeofpi">Seal Books 2006</string>
+    <string name="d_lifeofpi">Novela de aventura fantástica sobre un hombre llamado Piscine Molitor "Pi", que sobrevive 227 días en un bote con un tigre de bengala.</string>
+    <string-array name="u_lifeofpi">
+        <item>user1</item>
+        <item>user2</item>
+        <item>user3</item>
+        <item>user4</item>
+        <item>user5</item>
+    </string-array>
+
+
+    <string name="t_infernaldevices">The Infernal Devices </string>
+    <string name="a_infernaldevices">Cassandra Clare </string>
+    <string name="e_infernaldevices">Infernal Devices </string>
+    <string name="d_infernaldevices">Serie de novelas que componen una precuela de Mortal Instruments. Tessa Gray, una niña huérfana descubre que tiene el poder de cambiar de forma.</string>
+    <string-array name="u_infernaldevices">
+        <item>user3</item>
+        <item>user2</item>
+        <item>user4</item>
+    </string-array>
+
+    <string name="t_asuitableboy">A Suitable Boy </string>
+    <string name="a_asuitableboy">Vikram Seth </string>
+    <string name="e_asuitableboy">Harper Perennial Modern Classics 2005</string>
+    <string name="d_asuitableboy">Novela que trata sobre una historia de amor, Lata y su madre tratan de encontrar un muchacho con la que aquella pueda casarase. </string>
+    <string-array name="u_asuitableboy">
+        <item>user4</item>
+        <item>user1</item>
+        <item>user3</item>
+    </string-array>
+
+    <string name="user1name">Edwin Condori</string>
+    <string name="user2name">Katia Cotaquispe</string>
+    <string name="user3name">Noé Taza</string>
+    <string name="user4name">Luis Trujillo</string>
+    <string name="user5name">Usuario asdas</string>
+
+
+    <string name="appbar_scrolling_view_behavior">appbar_scrolling_view_behavior</string>
+    <string name="title_activity_new_book">NewBook</string>
+    <string name="title_activity_main">New Book</string>
+    <string name="titulo">Titulo</string>
+    <string name="autor">Autor</string>
+    <string name="categoria">Categoria</string>
+    <string name="idioma">Idioma</string>
+    <string name="año">Año</string>
+    <string name="estado">Estado</string>
+
+
+    <string name="menu_seccion_1">Titulo</string>
+    <string name="menu_seccion_2">Autor</string>
+    <string name="menu_seccion_3">Categoria</string>
+
+    <string name="menu_option_1">Autor</string>
+    <string name="menu_option_2">Categoria</string>
+
+    <string name="opcion_1">Titulo</string>
+    <string name="opcion_2">Autor</string>
+    <string name="otras_opciones">Categoria</string>
+
+
+    <string name="menu_opcion_1">Titulo</string>
+    <string name="menu_opcion_2">Autor</string>
+
+
+    <string-array name="categoria_array">
+        <item>Ciencia</item>
+        <item>Novela</item>
+        <item>Arte</item>
+        <item>Cocina</item>
+        <item>ficcion</item>
+        <item>Deporte</item>
+        <item>Medicina</item>
+        <item>musica</item>
+    </string-array>
+
+    <string-array name="idiomas_array">
+        <item>Español</item>
+        <item>Ingles</item>
+        <item>Portugues</item>
+        <item>Coreano</item>
+        <item>Frances</item>
+    </string-array>
+    <string name="title_activity_main22">Main22Activity</string>
+
+
 </resources>

@@ -41,6 +41,11 @@
             android:name=".Activity_postlogin"
             android:label="@string/title_activity_postlogin"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Descripcion_libro" />
+        <activity android:name=".NewBook" />
+        <activity android:name=".notificaciones" />
+        <activity android:name=".BookDescription" />
+        <activity android:name=".TradeBook"></activity>
     </application>
 
 </manifest>
