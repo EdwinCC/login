@@ -38,7 +38,7 @@
         android:layout_height="33dp"
         android:id="@+id/tvtitulopostlogin"
         android:text="@string/librosrecomendados"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorVerdeOscuro"
         android:textSize="@dimen/activity_horizontal_margin"
         app:layout_constraintTop_toTopOf="@+id/imgbackground"
         android:layout_marginTop="34dp"
@@ -86,7 +86,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorVerdeOscuro"
         android:id="@+id/tvnotifposlogin"
         android:text="@string/notificaciones"
         android:textSize="@dimen/activity_horizontal_margin"
